@@ -1,0 +1,14 @@
+logging:
+  level:
+    org:
+      springframework:
+        cloud: INFO
+
+spring:
+  cloud:
+    function:
+      definition: uppercase # Remove comment If you want to use function uppercase
+#      definition: reverseString # Remove comment If you want to use function reverseString
+#      definition: uppercase|reverseString # Remove comment If you want to use both function, start execute function uppercase first.
+  main:
+    banner-mode: off
