@@ -7,8 +7,10 @@ logging:
 spring:
   cloud:
     function:
-      definition: uppercase # Remove comment If you want to use function uppercase
+#      definition: uppercase # Remove comment If you want to use function uppercase
 #      definition: reverseString # Remove comment If you want to use function reverseString
 #      definition: uppercase|reverseString # Remove comment If you want to use both function, start execute function uppercase first.
+      scan:
+        packages: com.aphisiit.springlambda.function
   main:
     banner-mode: off

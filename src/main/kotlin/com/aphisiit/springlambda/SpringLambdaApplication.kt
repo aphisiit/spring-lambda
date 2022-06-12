@@ -8,15 +8,15 @@ import java.util.function.Function
 @SpringBootApplication
 class SpringLambdaApplication {
 
-	@Bean
-	fun uppercase(): Function<String, String> {
-		return Function<String, String> { value -> value.uppercase() }
-	}
+//	@Bean
+//	fun uppercase(): Function<String, String> {
+//		return Function<String, String> { value -> value.uppercase() }
+//	}
 
-	@Bean
-	fun reverseString(): Function<String, String> {
-		return Function<String, String> { value -> value.reversed() }
-	}
+//	@Bean
+//	fun reverseString(): Function<String, String> {
+//		return Function<String, String> { value -> value.reversed() }
+//	}
 
 }
 
